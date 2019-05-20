@@ -1,0 +1,14 @@
+---
+title: 今日份绘图
+author: ''
+date: '2019-05-20'
+slug: www
+categories: []
+tags: []
+---
+有点简单
+```{r}
+plot(1:10,col="red")
+
+```
+

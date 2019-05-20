@@ -13,7 +13,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "About"
     url = "/about/"
 [[menu.main]]
-    name = "qq"
+        name = "qq"
     url = "https://im.qq.com/"
 [[menu.main]]
     name = "weibo"
