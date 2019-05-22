@@ -17,7 +17,7 @@
       <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/05/22/wo/</guid>
-      <description>library(maps)library(mapdata)map(&amp;quot;world&amp;quot;, fill = TRUE, col = rainbow(200),ylim = c(-20, 90), mar = c(0, 0, 0, 0))title(&amp;quot;世界地图&amp;quot;)library(maps)library(mapdata)map(&amp;quot;china&amp;quot;, col = &amp;quot;red4&amp;quot;, ylim = c(17, 56), panel.first = grid())title(&amp;quot;中国地图&amp;quot;)</description>
+      <description>library(maps)library(mapdata)map(&amp;quot;world&amp;quot;, fill = TRUE, col = rainbow(200),ylim = c(-20, 90), mar = c(0, 0, 0, 0))title(&amp;quot;世界地图&amp;quot;)library(maps)library(mapdata)map(&amp;quot;china&amp;quot;, col = &amp;quot;red4&amp;quot;, ylim = c(14, 50), panel.first = grid())title(&amp;quot;中国地图&amp;quot;)</description>
     </item>
     
     <item>

@@ -14,7 +14,7 @@ title("世界地图")
 
 library(maps)
 library(mapdata)
-map("china", col = "red4", ylim = c(17, 56), panel.first = grid())
+map("china", col = "red4", ylim = c(14, 50), panel.first = grid())
 title("中国地图")
 
 
