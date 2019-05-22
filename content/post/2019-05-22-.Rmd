@@ -1,0 +1,13 @@
+---
+title: "\U0001F600接下来干什么呢"
+author: ''
+date: '2019-05-22'
+slug: ''
+categories: []
+tags: []
+---
+试试散点图··额···用它的话来说就是'package ‘ggplot’ is not available (for R version 3.6.0)'所以做不出来···干点其他的
+```{r}
+
+```
+
