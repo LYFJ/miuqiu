@@ -6,6 +6,7 @@ slug: wo
 categories: []
 tags: []
 ---
+额·····这个图有点残缺···
 ```{r}
 library(maps)
 library(mapdata)
