@@ -1,0 +1,20 @@
+---
+title: 我想搞地图了怎么办？搞！
+author: ''
+date: '2019-05-22'
+slug: wo
+categories: []
+tags: []
+---
+```{r}
+library(maps)
+library(mapdata)
+map("world", fill = TRUE, col = rainbow(200),ylim = c(-20, 90), mar = c(0, 0, 0, 0))
+title("世界地图")
+
+library(maps)
+library(mapdata)
+map("china", col = "red4", ylim = c(18, 54), panel.first = grid())
+title("中国地图")
+```
+

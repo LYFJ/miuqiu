@@ -1,0 +1,21 @@
+---
+title: 我想搞地图了怎么办？搞！
+author: ''
+date: '2019-05-22'
+slug: wo
+categories: []
+tags: []
+---
+
+
+
+<pre class="r"><code>library(maps)
+library(mapdata)
+map(&quot;world&quot;, fill = TRUE, col = rainbow(200),ylim = c(-20, 90), mar = c(0, 0, 0, 0))
+title(&quot;世界地图&quot;)</code></pre>
+<p><img src="/post/2019-05-22-wo_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<pre class="r"><code>library(maps)
+library(mapdata)
+map(&quot;china&quot;, col = &quot;red4&quot;, ylim = c(18, 54), panel.first = grid())
+title(&quot;中国地图&quot;)</code></pre>
+<p><img src="/post/2019-05-22-wo_files/figure-html/unnamed-chunk-1-2.png" width="672" /></p>
