@@ -6,8 +6,17 @@ slug: ''
 categories: []
 tags: []
 ---
-试试散点图··额···用它的话来说就是'package ‘ggplot’ is not available (for R version 3.6.0)'所以做不出来···干点其他的
-```{r}
+试试散点图··额···用它的话来说就是'package ‘ggplot’ is not available (for R version 3.6.0)'所以做不出来···做点其他的.
+```{r }
+x<-c(2,4,5,7,9,33,23,22)
+y<-c(3,5,6,7,12,14,19,20)
+plot(x,y)
+
+x<-c(2,4,5,7,9,33,23,22)
+y<-c(3,5,6,7,12,14,19,20)
+pie(x,y)
+
 
 ```
+
 
