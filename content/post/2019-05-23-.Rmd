@@ -1,0 +1,16 @@
+---
+title: "\U0001F437又是沉迷R的一天鸭"
+author: ''
+date: '2019-05-23'
+slug: ''
+categories: []
+tags: []
+---eeeee
+```{r}
+library(XML)
+url <- 'http://www.stat-nba.com/team/GSW.html'
+dt1 <- readHTMLTable(url,header = T)
+names(dt1[[1]]) <- rvest::repair_encoding(names(dt1[[1]]))
+head(dt1[[1]])
+```
+
