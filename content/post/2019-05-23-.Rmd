@@ -1,14 +1,16 @@
 ---
-title: "\U0001F437又是沉迷R的一天鸭"
+title: "来搞搞今年的湖人球员数据"
 author: ''
 date: '2019-05-23'
 slug: ''
 categories: []
 tags: []
----eeeee
+---
+终于出来了呜呜
+今年的湖人，😔伤病太多，先是隆指导，然后到老詹，接下来就是首发各种伤。等这个夏天补强吧，希望湖管不要太作，能有所作为。
 ```{r}
 library(XML)
-url <- 'http://www.stat-nba.com/team/GSW.html'
+url <- 'http://www.stat-nba.com/team/LAL.html'
 dt1 <- readHTMLTable(url,header = T)
 names(dt1[[1]]) <- rvest::repair_encoding(names(dt1[[1]]))
 head(dt1[[1]])
