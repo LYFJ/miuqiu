@@ -1,0 +1,29 @@
+---
+title: 灵魂拷问系列2
+author: ''
+date: '2019-06-05'
+slug: gg
+categories: []
+tags: []
+---
+```{r}
+#加载数据
+data(mtcars)
+df <- mtcars[, c("mpg","cyl","wt")]
+#将cyl转换为因子型
+df$cyl <- as.factor(df$cyl)
+head(df)
+set.seed(1234)
+wdata = data.frame(
+  sex = factor(rep(c("F", "M"), each=200)),
+  weight = c(rnorm(200, 55), rnorm(200, 58)))
+head(wdata)
+qplot(sex, weight, data = wdata, geom = "violin")
+qplot(sex, weight, data = wdata, geom = "dotplot",stackdir = "center", binaxis = "y", dotsize = 0.5)
+# 直方图
+qplot(weight, data = wdata, geom = "histogram",fill = sex)
+# 密度图
+qplot(weight, data = wdata, geom = "density", color = sex, linetype = sex)
+```
+
+

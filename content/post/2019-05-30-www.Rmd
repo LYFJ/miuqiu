@@ -61,3 +61,6 @@ a+geom_area(stat = "bin",fill="red")
 ```
 
 
+```
+
+
