@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>流程图</title>
+      <title>哈哈哈哈，好丑的流程图</title>
       <link>/2019/06/05/heihei/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/06/05/heihei/</guid>
-      <description>library(DiagrammeR)## Registered S3 methods overwritten by &amp;#39;ggplot2&amp;#39;:## method from ## [.quosures rlang## c.quosures rlang## print.quosures rlanggrViz(&amp;quot;digraph fig{scu[label=&amp;#39;四川大学&amp;#39;,shape=box]A[label=&amp;#39;公管&amp;#39;,color=red]B[label=&amp;#39;历史&amp;#39;,color=blue]E[label=&amp;#39;图情档&amp;#39;,color=red]F[label=&amp;#39;信资&amp;#39;,color=blue]G[label=&amp;#39;我&amp;#39;,color=red]scu -&amp;gt; {A,B,C,D}A-&amp;gt;EE-&amp;gt;FF-&amp;gt;G}&amp;quot;){&#34;x&#34;:{&#34;diagram&#34;:&#34;\n digraph fig{\n scu[label=\&#34;四川大学\&#34;,shape=box]\n A[label=\&#34;公管\&#34;,color=red]\n B[label=\&#34;历史\&#34;,color=blue]\n E[label=\&#34;图情档\&#34;,color=red]\n F[label=\&#34;信资\&#34;,color=blue]\n G[label=\&#34;我\&#34;,color=red]\n scu - {A,B,C,D}\n A-E\n E-F\n F-G\n }\n &#34;,&#34;config&#34;:{&#34;engine&#34;:&#34;dot&#34;,&#34;options&#34;:null}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}</description>
+      <description>哈哈哈
+library(DiagrammeR)## Registered S3 methods overwritten by &amp;#39;ggplot2&amp;#39;:## method from ## [.quosures rlang## c.quosures rlang## print.quosures rlanggrViz(&amp;quot;digraph fig{scu[label=&amp;#39;四川大学&amp;#39;,shape=box]A[label=&amp;#39;公管&amp;#39;,color=red]B[label=&amp;#39;历史&amp;#39;,color=blue]E[label=&amp;#39;图情档&amp;#39;,color=red]F[label=&amp;#39;信资&amp;#39;,color=blue]G[label=&amp;#39;我&amp;#39;,color=red]scu -&amp;gt; {A,B,C,D}A-&amp;gt;EE-&amp;gt;FF-&amp;gt;G}&amp;quot;){&#34;x&#34;:{&#34;diagram&#34;:&#34;\n digraph fig{\n scu[label=\&#34;四川大学\&#34;,shape=box]\n A[label=\&#34;公管\&#34;,color=red]\n B[label=\&#34;历史\&#34;,color=blue]\n E[label=\&#34;图情档\&#34;,color=red]\n F[label=\&#34;信资\&#34;,color=blue]\n G[label=\&#34;我\&#34;,color=red]\n scu - {A,B,C,D}\n A-E\n E-F\n F-G\n }\n &#34;,&#34;config&#34;:{&#34;engine&#34;:&#34;dot&#34;,&#34;options&#34;:null}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}library(DiagrammeR)grViz(&amp;quot;digraph fig{A[shape=box]B[shape=star]C[shape=star]D[shape=star]A-&amp;gt;BA-&amp;gt;CA-&amp;gt;DB-&amp;gt;CC-&amp;gt;DB-&amp;gt;EB-&amp;gt;FB-&amp;gt;GC-&amp;gt;HC-&amp;gt;ID-&amp;gt;JD-&amp;gt;N}&amp;quot;){&#34;</description>
     </item>
     
     <item>

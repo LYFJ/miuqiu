@@ -1,11 +1,12 @@
 ---
-title: 流程图
+title: 哈哈哈哈，好丑的流程图
 author: ''
 date: '2019-06-05'
 slug: heihei
 categories: []
 tags: []
 ---
+哈哈哈
 ```{r}
 library(DiagrammeR)
 grViz(
@@ -24,5 +25,31 @@ grViz(
   }
   "
   )
+```
+
+```{r}
+library(DiagrammeR)
+grViz(
+  "
+  digraph fig{
+  A[shape=box]
+  B[shape=star]
+  C[shape=star]
+  D[shape=star]
+  A->B
+  A->C
+  A->D
+  B->C
+  C->D
+  B->E
+  B->F
+  B->G
+  C->H
+  C->I
+  D->J
+  D->N
+  }
+  "
+)
 ```
 
