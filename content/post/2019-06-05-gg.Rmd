@@ -6,7 +6,9 @@ slug: gg
 categories: []
 tags: []
 ---
+
 ```{r}
+library(ggplot2)
 #加载数据
 data(mtcars)
 df <- mtcars[, c("mpg","cyl","wt")]
