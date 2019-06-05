@@ -1,0 +1,82 @@
+---
+title: 灵魂拷问：什么是图
+author: ''
+date: '2019-05-30'
+slug: www
+categories: []
+tags: []
+---
+
+
+
+<pre class="r"><code>library(ggplot2)</code></pre>
+<pre><code>## Registered S3 methods overwritten by &#39;ggplot2&#39;:
+##   method         from 
+##   [.quosures     rlang
+##   c.quosures     rlang
+##   print.quosures rlang</code></pre>
+<pre class="r"><code>#load the data set
+data(mtcars)
+df &lt;- mtcars[, c(&quot;mpg&quot;,&quot;cyl&quot;,&quot;wt&quot;)]
+#将cyl转为因子型factor
+df$cyl &lt;- as.factor(df$cyl)
+head(df)</code></pre>
+<pre><code>##                    mpg cyl    wt
+## Mazda RX4         21.0   6 2.620
+## Mazda RX4 Wag     21.0   6 2.875
+## Datsun 710        22.8   4 2.320
+## Hornet 4 Drive    21.4   6 3.215
+## Hornet Sportabout 18.7   8 3.440
+## Valiant           18.1   6 3.460</code></pre>
+<pre class="r"><code> qplot(x=mpg, y=wt, data=df, geom = &quot;point&quot;)</code></pre>
+<p><img src="/post/2019-05-30-www_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<pre class="r"><code>library(ggplot2)
+#load the data set
+data(mtcars)
+df &lt;- mtcars[, c(&quot;mpg&quot;,&quot;cyl&quot;,&quot;wt&quot;)]
+#将cyl转为因子型factor
+df$cyl &lt;- as.factor(df$cyl)
+head(df)</code></pre>
+<pre><code>##                    mpg cyl    wt
+## Mazda RX4         21.0   6 2.620
+## Mazda RX4 Wag     21.0   6 2.875
+## Datsun 710        22.8   4 2.320
+## Hornet 4 Drive    21.4   6 3.215
+## Hornet Sportabout 18.7   8 3.440
+## Valiant           18.1   6 3.460</code></pre>
+<pre class="r"><code> qplot(x=mpg, y=wt, data=df, geom = &quot;point&quot;)</code></pre>
+<p><img src="/post/2019-05-30-www_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<pre class="r"><code> qplot(x=mpg, y=wt, data = df, geom = c(&quot;point&quot;, &quot;smooth&quot;))</code></pre>
+<pre><code>## `geom_smooth()` using method = &#39;loess&#39; and formula &#39;y ~ x&#39;</code></pre>
+<p><img src="/post/2019-05-30-www_files/figure-html/unnamed-chunk-3-2.png" width="672" /></p>
+<pre class="r"><code>qplot(x=mpg, y=wt, data = df, colour=cyl, shape=cyl)</code></pre>
+<p><img src="/post/2019-05-30-www_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<pre class="r"><code>set.seed(1234)
+wdata &lt;- data.frame(
+  sex=factor(rep(c(&quot;F&quot;, &quot;M&quot;), each=200)),
+  weight=c(rnorm(200, 55), rnorm(200, 58))
+)
+head(wdata)</code></pre>
+<pre><code>##   sex   weight
+## 1   F 53.79293
+## 2   F 55.27743
+## 3   F 56.08444
+## 4   F 52.65430
+## 5   F 55.42912
+## 6   F 55.50606</code></pre>
+<pre class="r"><code>##   sex   weight
+## 1   F 53.79293
+## 2   F 55.27743
+## 3   F 56.08444
+## 4   F 52.65430
+## 5   F 55.42912
+## 6   F 55.50606
+qplot(sex, weight, data = wdata, geom = &quot;boxplot&quot;, fill=sex)</code></pre>
+<p><img src="/post/2019-05-30-www_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<pre class="r"><code>wdata &lt;-data.frame(sex=factor(rep(c(&quot;F&quot;,&quot;M&quot;),each=200)),weight=c(rnorm(200,55),rnorm(200,58)))
+a &lt;- ggplot(wdata, aes(x=weight))
+a</code></pre>
+<p><img src="/post/2019-05-30-www_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<pre class="r"><code>a+geom_area(stat = &quot;bin&quot;,fill=&quot;red&quot;)</code></pre>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<p><img src="/post/2019-05-30-www_files/figure-html/unnamed-chunk-6-2.png" width="672" /></p>

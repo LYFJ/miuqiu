@@ -1,0 +1,63 @@
+---
+title: 灵魂拷问：什么是图
+author: ''
+date: '2019-05-30'
+slug: www
+categories: []
+tags: []
+---
+```{r}
+```
+
+
+```{r}
+library(ggplot2)
+#load the data set
+data(mtcars)
+df <- mtcars[, c("mpg","cyl","wt")]
+#将cyl转为因子型factor
+df$cyl <- as.factor(df$cyl)
+head(df)
+ qplot(x=mpg, y=wt, data=df, geom = "point")
+
+```
+
+
+```{r}
+library(ggplot2)
+#load the data set
+data(mtcars)
+df <- mtcars[, c("mpg","cyl","wt")]
+#将cyl转为因子型factor
+df$cyl <- as.factor(df$cyl)
+head(df)
+ qplot(x=mpg, y=wt, data=df, geom = "point")
+ qplot(x=mpg, y=wt, data = df, geom = c("point", "smooth"))
+```
+```{r}
+qplot(x=mpg, y=wt, data = df, colour=cyl, shape=cyl)
+```
+```{r}
+set.seed(1234)
+wdata <- data.frame(
+  sex=factor(rep(c("F", "M"), each=200)),
+  weight=c(rnorm(200, 55), rnorm(200, 58))
+)
+head(wdata)
+##   sex   weight
+## 1   F 53.79293
+## 2   F 55.27743
+## 3   F 56.08444
+## 4   F 52.65430
+## 5   F 55.42912
+## 6   F 55.50606
+qplot(sex, weight, data = wdata, geom = "boxplot", fill=sex)
+```
+```{r}
+wdata <-data.frame(sex=factor(rep(c("F","M"),each=200)),weight=c(rnorm(200,55),rnorm(200,58)))
+a <- ggplot(wdata, aes(x=weight))
+a
+a+geom_area(stat = "bin",fill="red")
+```
+
+
