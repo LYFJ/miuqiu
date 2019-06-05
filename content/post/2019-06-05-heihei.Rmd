@@ -30,11 +30,11 @@ grViz(
 ```{r}
 library(DiagrammeR)
 grViz(
-  "
+"
   digraph fig{
   A[shape=box]
   B[shape=star]
-  C[shape=star]
+  C[label='我是一颗星星',shape=star,color=red]
   D[shape=star]
   A->B
   A->C
