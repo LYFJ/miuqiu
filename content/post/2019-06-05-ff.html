@@ -1,0 +1,27 @@
+---
+title: 边际地毯线
+author: ''
+date: '2019-06-05'
+slug: ff
+categories: []
+tags: []
+---
+
+
+
+<pre class="r"><code>library(ggplot2)</code></pre>
+<pre><code>## Registered S3 methods overwritten by &#39;ggplot2&#39;:
+##   method         from 
+##   [.quosures     rlang
+##   c.quosures     rlang
+##   print.quosures rlang</code></pre>
+<pre class="r"><code>ggplot(data = faithful, aes(x=eruptions, y=waiting))+
+  geom_point()+geom_rug()</code></pre>
+<p><img src="/post/2019-06-05-ff_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<pre class="r"><code>p &lt;- ggplot(mpg, aes(displ, hwy))
+# 添加散点图
+p + geom_point()</code></pre>
+<p><img src="/post/2019-06-05-ff_files/figure-html/unnamed-chunk-1-2.png" width="672" /></p>
+<pre class="r"><code># 避免重叠
+p + geom_jitter(position = position_jitter(width = 0.5, height = 0.5))</code></pre>
+<p><img src="/post/2019-06-05-ff_files/figure-html/unnamed-chunk-1-3.png" width="672" /></p>

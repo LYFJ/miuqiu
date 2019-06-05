@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>边际地毯线</title>
+      <link>/2019/06/05/ff/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/05/ff/</guid>
+      <description>library(ggplot2)## Registered S3 methods overwritten by &amp;#39;ggplot2&amp;#39;:## method from ## [.quosures rlang## c.quosures rlang## print.quosures rlangggplot(data = faithful, aes(x=eruptions, y=waiting))+geom_point()+geom_rug()p &amp;lt;- ggplot(mpg, aes(displ, hwy))# 添加散点图p + geom_point()# 避免重叠p + geom_jitter(position = position_jitter(width = 0.5, height = 0.5))</description>
+    </item>
+    
+    <item>
       <title>灵魂拷问：什么是图</title>
       <link>/2019/05/30/www/</link>
       <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>

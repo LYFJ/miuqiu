@@ -1,0 +1,21 @@
+---
+title: 边际地毯线
+author: ''
+date: '2019-06-05'
+slug: ff
+categories: []
+tags: []
+---
+```{r}
+library(ggplot2)
+ggplot(data = faithful, aes(x=eruptions, y=waiting))+
+  geom_point()+geom_rug()
+
+p <- ggplot(mpg, aes(displ, hwy))
+# 添加散点图
+p + geom_point()
+# 避免重叠
+p + geom_jitter(position = position_jitter(width = 0.5, height = 0.5))
+
+```
+
