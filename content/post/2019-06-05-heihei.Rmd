@@ -1,0 +1,23 @@
+---
+title: 流程图
+author: ''
+date: '2019-06-05'
+slug: heihei
+categories: []
+tags: []
+---
+```{r}
+library(DiagrammeR)
+grViz(
+  "
+  digraph fig{
+  scu[label='四川大学',shape=box]
+  A[label='公管',color=red]
+  B[label='历史',color=blue]
+  scu -> {A,B,C,D,E}
+  A->E
+  }
+  "
+  )
+```
+

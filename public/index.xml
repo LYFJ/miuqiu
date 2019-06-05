@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>dia</title>
+      <link>/2019/06/05/dia/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/05/dia/</guid>
+      <description>library(DiagrammeR)## Registered S3 methods overwritten by &amp;#39;ggplot2&amp;#39;:## method from ## [.quosures rlang## c.quosures rlang## print.quosures rlangxy&amp;lt;-1:34grViz## function (diagram = &amp;quot;&amp;quot;, engine = &amp;quot;dot&amp;quot;, allow_subst = TRUE, options = NULL, ## width = NULL, height = NULL) ## {## if (inherits(diagram, &amp;quot;connection&amp;quot;) || file.exists(diagram)) {## diagram &amp;lt;- readLines(diagram, encoding = &amp;quot;UTF-8&amp;quot;, warn = FALSE)## diagram &amp;lt;- paste0(diagram, collapse = &amp;quot;\n&amp;quot;)## }## else {## if (length(diagram) &amp;gt; 1) {## diagram &amp;lt;- paste0(diagram, collapse = &amp;quot;\n&amp;quot;)## }## }## if (allow_subst == TRUE) {## diagram &amp;lt;- replace_in_spec(diagram)## }## diagram &amp;lt;- gsub(x = diagram, &amp;quot;&amp;#39;&amp;quot;, &amp;quot;\&amp;quot;&amp;quot;)## x &amp;lt;- list(diagram = diagram, config = list(engine = engine, ## options = options))## viewer.</description>
+    </item>
+    
+    <item>
+      <title>流程图</title>
+      <link>/2019/06/05/heihei/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/05/heihei/</guid>
+      <description>library(DiagrammeR)## Registered S3 methods overwritten by &amp;#39;ggplot2&amp;#39;:## method from ## [.quosures rlang## c.quosures rlang## print.quosures rlanggrViz(&amp;quot;digraph fig{scu[label=&amp;#39;四川大学&amp;#39;,shape=box]A[label=&amp;#39;公管&amp;#39;,color=red]B[label=&amp;#39;历史&amp;#39;,color=blue]scu -&amp;gt; {A,B,C,D,E}A-&amp;gt;E}&amp;quot;){&#34;x&#34;:{&#34;diagram&#34;:&#34;\n digraph fig{\n scu[label=\&#34;四川大学\&#34;,shape=box]\n A[label=\&#34;公管\&#34;,color=red]\n B[label=\&#34;历史\&#34;,color=blue]\n scu - {A,B,C,D,E}\n A-E\n }\n &#34;,&#34;config&#34;:{&#34;engine&#34;:&#34;dot&#34;,&#34;options&#34;:null}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}</description>
+    </item>
+    
+    <item>
       <title>灵魂拷问系列2</title>
       <link>/2019/06/05/gg/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>

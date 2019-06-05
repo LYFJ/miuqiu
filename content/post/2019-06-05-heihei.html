@@ -1,0 +1,34 @@
+---
+title: 流程图
+author: ''
+date: '2019-06-05'
+slug: heihei
+categories: []
+tags: []
+---
+
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/viz/viz.js"></script>
+<link href="/rmarkdown-libs/DiagrammeR-styles/styles.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/grViz-binding/grViz.js"></script>
+
+
+<pre class="r"><code>library(DiagrammeR)</code></pre>
+<pre><code>## Registered S3 methods overwritten by &#39;ggplot2&#39;:
+##   method         from 
+##   [.quosures     rlang
+##   c.quosures     rlang
+##   print.quosures rlang</code></pre>
+<pre class="r"><code>grViz(
+  &quot;
+  digraph fig{
+  scu[label=&#39;四川大学&#39;,shape=box]
+  A[label=&#39;公管&#39;,color=red]
+  B[label=&#39;历史&#39;,color=blue]
+  scu -&gt; {A,B,C,D,E}
+  A-&gt;E
+  }
+  &quot;
+  )</code></pre>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"diagram":"\n  digraph fig{\n  scu[label=\"四川大学\",shape=box]\n  A[label=\"公管\",color=red]\n  B[label=\"历史\",color=blue]\n  scu -> {A,B,C,D,E}\n  A->E\n  }\n  ","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
