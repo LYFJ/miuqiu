@@ -26,6 +26,13 @@ qplot(sex, weight, data = wdata, geom = "dotplot",stackdir = "center", binaxis =
 qplot(weight, data = wdata, geom = "histogram",fill = sex)
 # 密度图
 qplot(weight, data = wdata, geom = "density", color = sex, linetype = sex)
+# 散点图
+ggplot(data = mtcars, aes(x = wt, y = mpg)) + geom_point()
+# 改变点大小和形状
+ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point(size = 2, shape = 23)
+ggplot(mtcars, aes_string(x = "wt", y = "mpg")) + geom_point(size = 2, shape = 23)
+ggplot(wdata, aes(x = weight)) + geom_density()
+ggplot(wdata, aes(x = weight)) + stat_density()
 ```
 
 
