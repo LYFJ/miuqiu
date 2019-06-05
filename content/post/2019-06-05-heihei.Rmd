@@ -14,8 +14,13 @@ grViz(
   scu[label='四川大学',shape=box]
   A[label='公管',color=red]
   B[label='历史',color=blue]
-  scu -> {A,B,C,D,E}
+  E[label='图情档',color=red]
+  F[label='信资',color=blue]
+  G[label='我',color=red]
+  scu -> {A,B,C,D}
   A->E
+  E->F
+  F->G
   }
   "
   )

@@ -91,13 +91,18 @@
   scu[label=&#39;四川大学&#39;,shape=box]
   A[label=&#39;公管&#39;,color=red]
   B[label=&#39;历史&#39;,color=blue]
-  scu -&gt; {A,B,C,D,E}
+  E[label=&#39;图情档&#39;,color=red]
+  F[label=&#39;信资&#39;,color=blue]
+  G[label=&#39;我&#39;,color=red]
+  scu -&gt; {A,B,C,D}
   A-&gt;E
+  E-&gt;F
+  F-&gt;G
   }
   &quot;
   )</code></pre>
 <div id="htmlwidget-1" style="width:672px;height:480px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"diagram":"\n  digraph fig{\n  scu[label=\"四川大学\",shape=box]\n  A[label=\"公管\",color=red]\n  B[label=\"历史\",color=blue]\n  scu -> {A,B,C,D,E}\n  A->E\n  }\n  ","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"diagram":"\n  digraph fig{\n  scu[label=\"四川大学\",shape=box]\n  A[label=\"公管\",color=red]\n  B[label=\"历史\",color=blue]\n  E[label=\"图情档\",color=red]\n  F[label=\"信资\",color=blue]\n  G[label=\"我\",color=red]\n  scu -> {A,B,C,D}\n  A->E\n  E->F\n  F->G\n  }\n  ","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
     </div>
   </article>
