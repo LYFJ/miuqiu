@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>birthday</title>
+      <link>/2019/06/05/birthday/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/05/birthday/</guid>
+      <description>birthday &amp;lt;-function(){x&amp;lt;-Sys.Date()y&amp;lt;-as.Date(&amp;quot;1998-06-29&amp;quot;)print(paste(&amp;quot;今天我出生多少天&amp;quot;,x-y,&amp;quot;天&amp;quot;))}birthday()## [1] &amp;quot;今天我出生多少天 7646 天&amp;quot;birthday &amp;lt;-function(){x&amp;lt;-as.Date(&amp;quot;1967-11-06&amp;quot;)y&amp;lt;-as.Date(&amp;quot;1998-06-29&amp;quot;)print(paste(&amp;quot;我和我妈相差多少岁&amp;quot;,y-x,&amp;quot;天&amp;quot;))}birthday()## [1] &amp;quot;我和我妈相差多少岁 11193 天&amp;quot;```</description>
+    </item>
+    
+    <item>
       <title>哈哈哈哈，好丑的流程图</title>
       <link>/2019/06/05/heihei/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>

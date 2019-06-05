@@ -1,0 +1,26 @@
+---
+title: birthday
+author: ''
+date: '2019-06-05'
+slug: birthday
+categories: []
+tags: []
+---
+
+
+
+<pre class="r"><code>birthday &lt;-function(){
+  x&lt;-Sys.Date()
+  y&lt;-as.Date(&quot;1998-06-29&quot;)
+  print(paste(&quot;今天我出生多少天&quot;,x-y,&quot;天&quot;))
+}
+birthday()</code></pre>
+<pre><code>## [1] &quot;今天我出生多少天 7646 天&quot;</code></pre>
+<pre class="r"><code>birthday &lt;-function(){
+  x&lt;-as.Date(&quot;1967-11-06&quot;)
+  y&lt;-as.Date(&quot;1998-06-29&quot;)
+  print(paste(&quot;我和我妈相差多少岁&quot;,y-x,&quot;天&quot;))
+}
+birthday()</code></pre>
+<pre><code>## [1] &quot;我和我妈相差多少岁 11193 天&quot;</code></pre>
+<p>```</p>

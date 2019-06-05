@@ -1,0 +1,31 @@
+---
+title: birthday
+author: ''
+date: '2019-06-05'
+slug: birthday
+categories: []
+tags: []
+---
+```{r}
+birthday <-function(){
+  x<-Sys.Date()
+  y<-as.Date("1998-06-29")
+  print(paste("今天我出生多少天",x-y,"天"))
+}
+birthday()
+```
+
+```{r}
+birthday <-function(){
+  x<-as.Date("1967-11-06")
+  y<-as.Date("1998-06-29")
+  print(paste("我和我妈相差多少岁",y-x,"天"))
+}
+birthday()
+```
+
+
+```
+
+
+
