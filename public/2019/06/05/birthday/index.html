@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.55.5" />
 
 
-<title>birthday - A Hugo website</title>
-<meta property="og:title" content="birthday - A Hugo website">
+<title>灵魂拷问系列3——什么是时间 - A Hugo website</title>
+<meta property="og:title" content="灵魂拷问系列3——什么是时间 - A Hugo website">
 
 
   <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -65,7 +65,7 @@
     <span class="article-duration">1 min read</span>
     
 
-    <h1 class="article-title">birthday</h1>
+    <h1 class="article-title">灵魂拷问系列3——什么是时间</h1>
 
     
     <span class="article-date">2019-06-05</span>
@@ -81,7 +81,7 @@
   print(paste(&quot;今天我出生多少天&quot;,x-y,&quot;天&quot;))
 }
 birthday()</code></pre>
-<pre><code>## [1] &quot;今天我出生多少天 7646 天&quot;</code></pre>
+<pre><code>## [1] &quot;今天我出生多少天 7647 天&quot;</code></pre>
 <pre class="r"><code>birthday &lt;-function(){
   x&lt;-as.Date(&quot;1967-11-06&quot;)
   y&lt;-as.Date(&quot;1998-06-29&quot;)
@@ -89,6 +89,16 @@ birthday()</code></pre>
 }
 birthday()</code></pre>
 <pre><code>## [1] &quot;我和我妈相差多少岁 11193 天&quot;</code></pre>
+<pre class="r"><code>birthday &lt;-function(){
+  x&lt;-Sys.Date()
+  y&lt;-as.Date(&quot;2019-10-1&quot;)
+  z&lt;-as.Date(&quot;2019-09-13&quot;)
+  print(paste(&quot;距离国庆放假还有多少天&quot;,y-x,&quot;天&quot;))
+  print(paste(&quot;距离中秋节放假还有多少天&quot;,z-x,&quot;天&quot;))
+}
+birthday()</code></pre>
+<pre><code>## [1] &quot;距离国庆放假还有多少天 117 天&quot;
+## [1] &quot;距离中秋节放假还有多少天 99 天&quot;</code></pre>
 <p>```</p>
 
     </div>

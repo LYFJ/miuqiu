@@ -1,5 +1,5 @@
 ---
-title: birthday
+title: 灵魂拷问系列3——什么是时间
 author: ''
 date: '2019-06-05'
 slug: birthday
@@ -24,6 +24,16 @@ birthday <-function(){
 birthday()
 ```
 
+```{r}
+birthday <-function(){
+  x<-Sys.Date()
+  y<-as.Date("2019-10-1")
+  z<-as.Date("2019-09-13")
+  print(paste("距离国庆放假还有多少天",y-x,"天"))
+  print(paste("距离中秋节放假还有多少天",z-x,"天"))
+}
+birthday()
+```
 
 ```
 
