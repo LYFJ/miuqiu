@@ -29,9 +29,11 @@ birthday <-function(){
   x<-Sys.Date()
   y<-as.Date("2019-10-1")
   z<-as.Date("2019-09-13")
+  y<-as.Date("2019-11-05")
   print(paste("距离国庆放假还有",y-x,"天"))
   print(paste("距离中秋节放假还有",z-x,"天"))
   print(paste("国庆与中秋相差",y-z,"天"))
+  print(paste("距离NBA下个赛季开赛还有",y-x,"天"))
 }
 birthday()
 ```
