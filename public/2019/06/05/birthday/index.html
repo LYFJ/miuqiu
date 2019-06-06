@@ -78,27 +78,29 @@
 <pre class="r"><code>birthday &lt;-function(){
   x&lt;-Sys.Date()
   y&lt;-as.Date(&quot;1998-06-29&quot;)
-  print(paste(&quot;今天我出生多少天&quot;,x-y,&quot;天&quot;))
+  print(paste(&quot;今天我出生&quot;,x-y,&quot;天&quot;))
 }
 birthday()</code></pre>
-<pre><code>## [1] &quot;今天我出生多少天 7647 天&quot;</code></pre>
+<pre><code>## [1] &quot;今天我出生 7647 天&quot;</code></pre>
 <pre class="r"><code>birthday &lt;-function(){
   x&lt;-as.Date(&quot;1967-11-06&quot;)
   y&lt;-as.Date(&quot;1998-06-29&quot;)
-  print(paste(&quot;我和我妈相差多少岁&quot;,y-x,&quot;天&quot;))
+  print(paste(&quot;我和我妈相差&quot;,y-x,&quot;天&quot;))
 }
 birthday()</code></pre>
-<pre><code>## [1] &quot;我和我妈相差多少岁 11193 天&quot;</code></pre>
+<pre><code>## [1] &quot;我和我妈相差 11193 天&quot;</code></pre>
 <pre class="r"><code>birthday &lt;-function(){
   x&lt;-Sys.Date()
   y&lt;-as.Date(&quot;2019-10-1&quot;)
   z&lt;-as.Date(&quot;2019-09-13&quot;)
-  print(paste(&quot;距离国庆放假还有多少天&quot;,y-x,&quot;天&quot;))
-  print(paste(&quot;距离中秋节放假还有多少天&quot;,z-x,&quot;天&quot;))
+  print(paste(&quot;距离国庆放假还有&quot;,y-x,&quot;天&quot;))
+  print(paste(&quot;距离中秋节放假还有&quot;,z-x,&quot;天&quot;))
+  print(paste(&quot;国庆与中秋相差&quot;,y-z,&quot;天&quot;))
 }
 birthday()</code></pre>
-<pre><code>## [1] &quot;距离国庆放假还有多少天 117 天&quot;
-## [1] &quot;距离中秋节放假还有多少天 99 天&quot;</code></pre>
+<pre><code>## [1] &quot;距离国庆放假还有 117 天&quot;
+## [1] &quot;距离中秋节放假还有 99 天&quot;
+## [1] &quot;国庆与中秋相差 18 天&quot;</code></pre>
 <p>```</p>
 
     </div>

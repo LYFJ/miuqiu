@@ -10,7 +10,7 @@ tags: []
 birthday <-function(){
   x<-Sys.Date()
   y<-as.Date("1998-06-29")
-  print(paste("今天我出生多少天",x-y,"天"))
+  print(paste("今天我出生",x-y,"天"))
 }
 birthday()
 ```
@@ -19,7 +19,7 @@ birthday()
 birthday <-function(){
   x<-as.Date("1967-11-06")
   y<-as.Date("1998-06-29")
-  print(paste("我和我妈相差多少岁",y-x,"天"))
+  print(paste("我和我妈相差",y-x,"天"))
 }
 birthday()
 ```
@@ -29,8 +29,9 @@ birthday <-function(){
   x<-Sys.Date()
   y<-as.Date("2019-10-1")
   z<-as.Date("2019-09-13")
-  print(paste("距离国庆放假还有多少天",y-x,"天"))
-  print(paste("距离中秋节放假还有多少天",z-x,"天"))
+  print(paste("距离国庆放假还有",y-x,"天"))
+  print(paste("距离中秋节放假还有",z-x,"天"))
+  print(paste("国庆与中秋相差",y-z,"天"))
 }
 birthday()
 ```
