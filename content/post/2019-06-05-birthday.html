@@ -387,7 +387,7 @@ $(document).ready(function () {
   print(paste(&quot;今天我出生&quot;,x-y,&quot;天&quot;))
 }
 birthday()</code></pre>
-<pre><code>## [1] &quot;今天我出生 7647 天&quot;</code></pre>
+<pre><code>## [1] &quot;今天我出生 7648 天&quot;</code></pre>
 <pre class="r"><code>birthday &lt;-function(){
   x&lt;-as.Date(&quot;1967-11-06&quot;)
   y&lt;-as.Date(&quot;1998-06-29&quot;)
@@ -397,19 +397,25 @@ birthday()</code></pre>
 <pre><code>## [1] &quot;我和我妈相差 11193 天&quot;</code></pre>
 <pre class="r"><code>birthday &lt;-function(){
   x&lt;-Sys.Date()
-  y&lt;-as.Date(&quot;2019-10-1&quot;)
+  y&lt;-as.Date(&quot;2019-10-01&quot;)
   z&lt;-as.Date(&quot;2019-09-13&quot;)
-  y&lt;-as.Date(&quot;2019-11-05&quot;)
+  h&lt;-as.Date(&quot;2019-11-05&quot;)
+  s&lt;-as.Date(&quot;2020-01-25&quot;)
+  a&lt;-as.Date(&quot;2019-12-31&quot;)
   print(paste(&quot;距离国庆放假还有&quot;,y-x,&quot;天&quot;))
   print(paste(&quot;距离中秋节放假还有&quot;,z-x,&quot;天&quot;))
   print(paste(&quot;国庆与中秋相差&quot;,y-z,&quot;天&quot;))
-  print(paste(&quot;距离NBA下个赛季开赛还有&quot;,y-x,&quot;天&quot;))
+  print(paste(&quot;距离NBA下个赛季开赛还有&quot;,h-x,&quot;天&quot;))
+  print(paste(&quot;距离春节还有多少&quot;,s-x,&quot;天&quot;))
+  print(paste(&quot;2019年还剩多少&quot;,a-x,&quot;天&quot;))
 }
 birthday()</code></pre>
-<pre><code>## [1] &quot;距离国庆放假还有 152 天&quot;
-## [1] &quot;距离中秋节放假还有 99 天&quot;
-## [1] &quot;国庆与中秋相差 53 天&quot;
-## [1] &quot;距离NBA下个赛季开赛还有 152 天&quot;</code></pre>
+<pre><code>## [1] &quot;距离国庆放假还有 116 天&quot;
+## [1] &quot;距离中秋节放假还有 98 天&quot;
+## [1] &quot;国庆与中秋相差 18 天&quot;
+## [1] &quot;距离NBA下个赛季开赛还有 151 天&quot;
+## [1] &quot;距离春节还有多少 232 天&quot;
+## [1] &quot;2019年还剩多少 207 天&quot;</code></pre>
 <p>```</p>
 
 
