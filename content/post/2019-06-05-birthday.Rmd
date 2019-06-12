@@ -6,6 +6,7 @@ slug: birthday
 categories: []
 tags: []
 ---
+试试可不可以传上去
 ```{r}
 birthday <-function(){
   x<-Sys.Date()
