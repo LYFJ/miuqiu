@@ -84,7 +84,7 @@ p2 <- qplot(depth,data=diamonds,geom="density",xlim=c(54,70),fill=cut,alpha=I(0.
 
              axis.title.y=element_blank(),
 
-             axis.text.x=element_text(face="bold",colour="black"),
+             axis.text.x=element_text(face="bold",colour="red"),
 
              plot.background=element_rect(I(0),linetype=0),
 
