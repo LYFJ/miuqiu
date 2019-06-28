@@ -101,8 +101,7 @@ x&amp;lt;-c(2,4,5,7,9,33,23,22)y&amp;lt;-c(3,5,6,7,12,14,19,20)plot(x,y)x&amp
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/05/20/www/</guid>
-      <description>有点简单
-plot(1:10,col=&amp;quot;red&amp;quot;)</description>
+      <description>plot(1:10,col=&amp;quot;red&amp;quot;)library(ggplot2)## Registered S3 methods overwritten by &amp;#39;ggplot2&amp;#39;:## method from ## [.quosures rlang## c.quosures rlang## print.quosures rlang#load the data setdata(mtcars)df &amp;lt;- mtcars[, c(&amp;quot;mpg&amp;quot;,&amp;quot;cyl&amp;quot;,&amp;quot;wt&amp;quot;)]df$cyl &amp;lt;- as.factor(df$cyl)head(df)## mpg cyl wt## Mazda RX4 21.0 6 2.620## Mazda RX4 Wag 21.0 6 2.875## Datsun 710 22.8 4 2.320## Hornet 4 Drive 21.4 6 3.215## Hornet Sportabout 18.7 8 3.</description>
     </item>
     
     <item>
